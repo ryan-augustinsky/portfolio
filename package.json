@@ -12,11 +12,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "PORT=3006 PUBLIC_URL=https://augu.dev/portfolio react-scripts start",
-    "build": "PUBLIC_URL=https://augu.dev/portfolio BUILD_PATH='./build/portfolio' react-scripts build && mv build/portfolio/index.html build/index.html",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "PUBLIC_URL=https://augu.dev/portfolio serve -s build -p 3006"
+    "serve": "serve -s build -l 3000"
   },
   "eslintConfig": {
     "extends": [
